@@ -1,6 +1,5 @@
 Code Book for
 ==============
-
 Completes the following tasks:
 * Merges the training and the test sets to create one data set.
 * Extracts only the measurements on the mean and standard deviation for each measurement. 
@@ -15,8 +14,7 @@ Overview of the Data Flow for the script:
  - Assign Column Name                                                              
 3.Merge Training & Testing Subject Data 	(subject_train.txt,subject_test.txt)  (10299*1)
 4.Read activities                           	(activity_labels.txt)                 (6)
-5.Assigning activity names                                                             
-	-walking,walkingupstairs,walkingdownstairs,sitting,standing,laying                
+5.Assigning activity names                (walking,walkingupstairs,walkingdownstairs,sitting,standing,laying)             
 6.Reading Feature names				(features.txt)                             
 7.Extracting Mean & STD                                                             
 8.Tidy Data Set1 				(MeasurementData.txt)                 (10299*88)
